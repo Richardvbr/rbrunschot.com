@@ -6,7 +6,6 @@ import Certificates from './Certificates';
 import Education from './Education';
 import Section from '@/components/shared/Section';
 import ConnectLinks from '@/components/links/ConnectLinks';
-import Strava from './Strava';
 
 const About = () => {
   return (
@@ -25,7 +24,6 @@ const About = () => {
         <Section key="connect" heading="Connect">
           <ConnectLinks filled={false} center={false} />
         </Section>
-        <Strava />
       </div>
     </div>
   );
