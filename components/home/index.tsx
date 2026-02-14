@@ -21,18 +21,19 @@ const Home = () => {
         Front-end Developer
       </p>
       <div
-        className="mt-8 flex h-[100] w-[100] animate-in items-center gap-8"
+        className="animate-in mt-8 flex items-center gap-8"
         style={{ '--index': 1 } as React.CSSProperties}
       >
-        <div className="relative h-[100px] w-[100px] shrink-0">
+        <div className="relative h-25 w-25 shrink-0">
           <Image
             src={avatar}
-            layout="fill"
+            fill
             alt="avatar"
-            className="rounded-full bg-secondary"
+            className="bg-secondary rounded-full"
+            priority
           />
         </div>
-        <ul className="flex flex-col gap-1.5 text-secondary">
+        <ul className="text-secondary flex flex-col gap-1.5">
           <li className="flex items-center gap-4">
             <div className="shrink-0">
               <BsBriefcase />
@@ -54,7 +55,7 @@ const Home = () => {
         </ul>
       </div>
       <p
-        className="mt-8 max-w-lg animate-in"
+        className="animate-in mt-8 max-w-lg"
         style={{ '--index': 2 } as React.CSSProperties}
       >
         I&apos;m a front-end developer with currently{' '}
@@ -63,7 +64,7 @@ const Home = () => {
         web applications using modern technologies.
       </p>
       <ul
-        className="mt-8 flex animate-in gap-4 text-secondary md:gap-6"
+        className="animate-in text-secondary mt-8 flex gap-4 md:gap-6"
         style={{ '--index': 2 } as React.CSSProperties}
       >
         <li className="transition-opacity">
