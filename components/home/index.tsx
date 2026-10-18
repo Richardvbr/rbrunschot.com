@@ -18,7 +18,7 @@ const Home = () => {
         className="animate-in text-secondary"
         style={{ '--index': 1 } as React.CSSProperties}
       >
-        Front-end Developer
+        Front-end Engineer
       </p>
       <div
         className="animate-in mt-8 flex items-center gap-8"
@@ -38,7 +38,7 @@ const Home = () => {
             <div className="shrink-0">
               <BsBriefcase />
             </div>
-            <p>Front-end Developer @ Trifork (Eindhoven, NL)</p>
+            <p>Front-end Engineer @ Trifork (Eindhoven, NL)</p>
           </li>
           <li className="flex items-center gap-4">
             <div className="shrink-0">
@@ -58,7 +58,7 @@ const Home = () => {
         className="animate-in mt-8 max-w-lg"
         style={{ '--index': 2 } as React.CSSProperties}
       >
-        I&apos;m a front-end developer with currently{' '}
+        I&apos;m a front-end engineer with currently{' '}
         {getYearsFrom(new Date('2021-04-01'))}+ years of professional experience
         in developing and delivering high-quality, responsive, and user-friendly
         web applications using modern technologies.

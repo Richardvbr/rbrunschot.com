@@ -3,8 +3,8 @@ import { Analytics } from '@vercel/analytics/react';
 import Header from '@/components/shared/Header';
 import '@/styles/globals.css';
 
-const seoTitle = 'Richard van Brunschot | Front-end Developer';
-const seoDescription = 'Richard van Brunschot, front-end developer.';
+const seoTitle = 'Richard van Brunschot | Front-end Engineer';
+const seoDescription = 'Richard van Brunschot, front-end engineer.';
 
 export const metadata: Metadata = {
   title: seoTitle,

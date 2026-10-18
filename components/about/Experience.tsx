@@ -5,7 +5,7 @@ import type { WorkplaceProps } from '@/types';
 
 const workplaces: WorkplaceProps[] = [
   {
-    title: 'Front-end Developer',
+    title: 'Front-end Engineer',
     company: 'Trifork',
     time: '04/2021 - present',
     location: 'Eindhoven, NL',
