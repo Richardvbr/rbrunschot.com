@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: seoTitle,
     description: seoDescription,
-    url: 'https://brunschot.dev/',
+    url: 'https://rbrunschot.com/',
     siteName: seoTitle,
   },
 };
